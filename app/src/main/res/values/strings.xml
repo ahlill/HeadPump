@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fluida</string>
+    <string name="laminer">LAMINER</string>
+    <string name="transition">TRANSITION</string>
+    <string name="turbulen">TURBULEN</string>
+
+    <string name="yes">ya</string>
+    <string name="no">tidak</string>
+    <string name="massage_dialog">Hapus Data?</string>
+    <string name="title_dialog">Peringatan</string>
+    <string name="description">Aplikasi ini dibangun untuk mensimulasikan perhitungan kebutuhan daya pompa dalam mengalirkan fluida. Dengan menggunakan persamaan</string>
+    <string name="content_description">gambar</string>
+
+    <string-array name="sp_satuan">
+        <item>W</item>
+        <item>kW</item>
+        <item>HP</item>
+    </string-array>
+
+</resources>

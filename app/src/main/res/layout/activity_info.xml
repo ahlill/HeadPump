@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:lineSpacingExtra="2dp"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:text="@string/description"
+            android:textAlignment="center"
+            android:textColor="#2C2B2B"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/img_persamaan_fluida" />
+
+    </LinearLayout>
+</ScrollView>
