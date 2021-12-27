@@ -1,10 +1,10 @@
-package com.example.myapplication
+package id.tpusk.headpumpcalculator
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.databinding.ListDataAdapterBinding
-import com.example.myapplication.room.DataEntity
+import id.tpusk.headpumpcalculator.databinding.ListDataAdapterBinding
+import id.tpusk.headpumpcalculator.room.DataEntity
 
 class ListDataAdapter(private val dataList: ArrayList<DataEntity>) : RecyclerView.Adapter<ListDataAdapter.ViewHolder>() {
 

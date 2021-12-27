@@ -1,4 +1,4 @@
-package com.example.myapplication
+package id.tpusk.headpumpcalculator
 
 import org.junit.Test
 

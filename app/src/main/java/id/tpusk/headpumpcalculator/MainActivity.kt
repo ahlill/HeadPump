@@ -3,7 +3,7 @@
  * @since 1.0
  */
 
-package com.example.myapplication
+package id.tpusk.headpumpcalculator
 
 import android.app.Dialog
 import android.content.Intent
@@ -19,10 +19,10 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.databinding.ActivityMainBinding
-import com.example.myapplication.databinding.DialogTamplateBinding
-import com.example.myapplication.room.DataDB
-import com.example.myapplication.room.DataEntity
+import id.tpusk.headpumpcalculator.databinding.ActivityMainBinding
+import id.tpusk.headpumpcalculator.databinding.DialogTamplateBinding
+import id.tpusk.headpumpcalculator.room.DataDB
+import id.tpusk.headpumpcalculator.room.DataEntity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="id.tpusk.headpumpcalculator">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_porthole_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".ListDataActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name="id.tpusk.headpumpcalculator.ListDataActivity"
+            android:parentActivityName="id.tpusk.headpumpcalculator.MainActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".InfoActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name="id.tpusk.headpumpcalculator.InfoActivity"
+            android:parentActivityName="id.tpusk.headpumpcalculator.MainActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
+        <activity android:name="id.tpusk.headpumpcalculator.MainActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".SplashScreenActivity"
+        <activity android:name="id.tpusk.headpumpcalculator.SplashScreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>

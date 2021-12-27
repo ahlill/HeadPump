@@ -1,4 +1,4 @@
-package com.example.myapplication
+package id.tpusk.headpumpcalculator
 
 class DataListModel (
         var title: String,

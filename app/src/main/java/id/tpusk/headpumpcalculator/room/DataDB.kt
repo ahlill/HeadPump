@@ -1,4 +1,4 @@
-package com.example.myapplication.room
+package id.tpusk.headpumpcalculator.room
 
 import android.content.Context
 import androidx.room.Database

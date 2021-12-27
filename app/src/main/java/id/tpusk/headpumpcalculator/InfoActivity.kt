@@ -1,8 +1,8 @@
-package com.example.myapplication
+package id.tpusk.headpumpcalculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.myapplication.databinding.ActivityInfoBinding
+import id.tpusk.headpumpcalculator.databinding.ActivityInfoBinding
 
 class InfoActivity : AppCompatActivity() {
 

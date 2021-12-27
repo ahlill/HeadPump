@@ -1,14 +1,13 @@
-package com.example.myapplication
+package id.tpusk.headpumpcalculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.myapplication.databinding.ActivityListDataBinding
-import com.example.myapplication.room.DataDB
-import com.example.myapplication.room.DataEntity
+import id.tpusk.headpumpcalculator.databinding.ActivityListDataBinding
+import id.tpusk.headpumpcalculator.room.DataDB
+import id.tpusk.headpumpcalculator.room.DataEntity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
