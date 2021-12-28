@@ -9,6 +9,7 @@ import id.tpusk.headpumpcalculator.databinding.ActivitySplashScreenBinding
 class SplashScreenActivity : AppCompatActivity() {
 
     private val binding by lazy { ActivitySplashScreenBinding.inflate(layoutInflater) }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)

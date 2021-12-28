@@ -333,6 +333,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnSimpan.visibility = View.VISIBLE
     }
 
+    /**
+     * mengambil data tanggal dari SimmpleDateFormat
+     * melakukan penyimpanan data ke database room menggunakan coroutine
+     */
     private suspend fun saveData(name: String, dataEt0String: String) {
         val sf = SimpleDateFormat("dd MM yyyy", Locale("ID")).format(Date())
         val data = DataEntity(0, name, sf, dataEt0String)
@@ -344,6 +348,9 @@ class MainActivity : AppCompatActivity() {
         dialog.show()
     }
 
+    /**
+     * menampilkan dialog konfirmasi penyimpnan data ke database dan meminta user menginput nama data
+     */
     private fun initiationDialogSave() {
         dialog = Dialog(this)
         //Mengeset judul dialog
@@ -353,7 +360,7 @@ class MainActivity : AppCompatActivity() {
         dialog.setContentView(bindingTemplate.root )
 
         //Membuat agar dialog tidak hilang saat di click di area luar dialog
-//        dialog.setCanceledOnTouchOutside(false)
+        dialog.setCanceledOnTouchOutside(false)
 
         //Membuat dialog agar berukuran responsive
         val metrics = resources.displayMetrics
@@ -365,6 +372,7 @@ class MainActivity : AppCompatActivity() {
             CoroutineScope(Dispatchers.IO).launch {
                 saveData(title, dayaPumpSave)
             }
+            bindingTemplate.tvTitle.setText("")
             dialog.dismiss()
             Toast.makeText(this@MainActivity, "Data saved", Toast.LENGTH_SHORT).show()
         }
