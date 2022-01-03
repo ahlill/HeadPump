@@ -18,6 +18,7 @@ import android.widget.AdapterView
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import id.tpusk.headpumpcalculator.databinding.ActivityMainBinding
 import id.tpusk.headpumpcalculator.databinding.DialogTamplateBinding
@@ -396,6 +397,22 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+    }
+
+    override fun onBackPressed() {
+        val builder = AlertDialog.Builder(this)
+        builder.setCancelable(true)
+        builder.setMessage("Yakin Ingin Keluar?")
+        builder.setPositiveButton("Ya") { _, _ ->
+            finish()
+        }
+        builder.setNegativeButton(
+                "Tidak"
+        ) { dialog, _ ->
+            dialog.cancel()
+        }
+        val alert = builder.create()
+        alert.show()
     }
 
     companion object {

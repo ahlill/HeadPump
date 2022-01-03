@@ -10,6 +10,7 @@
     <string name="title_dialog">Peringatan</string>
     <string name="description">Aplikasi ini dibangun untuk mensimulasikan perhitungan kebutuhan daya pompa dalam mengalirkan fluida. Dengan menggunakan persamaan</string>
     <string name="content_description">gambar</string>
+    <string name="empty">Kosong</string>
 
     <string-array name="sp_satuan">
         <item>W</item>

@@ -2,6 +2,7 @@ package id.tpusk.headpumpcalculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -42,6 +43,8 @@ class ListDataActivity : AppCompatActivity() {
                 listDataAdapter.setData(data)
                 if (data.isNullOrEmpty()) {
                     Toast.makeText(applicationContext, "data kosong", Toast.LENGTH_SHORT).show()
+                    binding.icFolderEmpty.visibility = View.VISIBLE
+                    binding.tvFolderKosong.visibility = View.VISIBLE
                 }
             }
         }
