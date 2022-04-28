@@ -18,7 +18,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "id.tpusk.haedpump"
+        applicationId "id.tpusk.headpump"
         minSdkVersion 23
         targetSdkVersion 31
         versionCode 1
