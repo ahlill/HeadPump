@@ -12,6 +12,32 @@
     <string name="content_description">gambar</string>
     <string name="empty">Kosong</string>
 
+    //keterangan error
+    <string name="diameter_error">masukkan nilai diameter</string>
+    <string name="debit_error">masukkan nilai debit</string>
+    <string name="ketinggian1_error">masukkan nilai ketinggian 1</string>
+    <string name="ketinggian2_error">masukkan nilai ketinggian 2</string>
+    <string name="panjang_ekivalen_error">masukkan nilai panjang pipa</string>
+    <string name="efisiensi_error">masukkan nilai efisiensi</string>
+    <string name="keran_gerbang_error">masukkan jumlah keran gerbang</string>
+    <string name="keran_bola_error">masukkan jumlah keran bola</string>
+    <string name="keran_sudut_error">masukkan jumlah keran sudut</string>
+    <string name="tekanan1_error">masukkan nilai tekanan 1</string>
+    <string name="tekanan2_error">masukkan nilai tekanan 2</string>
+    <string name="kecepatan1_error">masukkan nilai kecepatan 1</string>
+    <string name="kecepatan2_error">masukkan nilai kecepatan 2</string>
+    <string name="kerapatan_error">masukkan nilai kerapatan</string>
+    <string name="viskositas_error">masukkan nilai viskositas</string>
+    <string name="belokan45_error">masukkan nilai belokan 45</string>
+    <string name="belokan90_error">masukkan nilai belokan 90</string>
+    <string name="diameter_baru_error">masukkan nilai diameter pipa baru</string>
+
+
+    <string name="pesan_konfirmasi_keluar_aplikasi">Yakin Ingin Keluar?</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="pesan_data_tersimpan">Data Tersimpan</string>
+
     <string-array name="sp_satuan">
         <item>W</item>
         <item>kW</item>
